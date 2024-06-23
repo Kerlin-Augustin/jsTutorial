@@ -1,1 +1,1 @@
-### Some Javascript Basics to help with practicing git!
+# Some Javascript Basics to help with practicing git!
