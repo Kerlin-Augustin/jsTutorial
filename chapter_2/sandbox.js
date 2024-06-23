@@ -40,3 +40,20 @@ radius++;
 console.log(radius);
 radius--;
 console.log(radius);
+
+// arrays
+let numbers = [1, 2, 3, 4, 5];
+console.log(numbers);
+console.log(numbers[2]);
+
+let people = ['Mirthaud', 'Dinah', 'Wesner', 'Mureille', 'Yves'];
+console.log(people);
+console.log(people[1]);
+
+let random = [2, 'hello', true, undefined, null];
+console.log(random);
+
+console.log(people.length)
+console.log(people.join(','));
+console.log(people.indexOf('Wesner'));
+
