@@ -92,3 +92,19 @@ console.log(spouse == 'Tyana');
 console.log(spouse == 'tyana');
 console.log(spouse > 'Bandeira');
 console.log(spouse > 'bandeira');
+
+// type conversion
+let score = '100';
+console.log(score, typeof score);
+score = Number(score);
+console.log(score, typeof score);
+
+let score2 = 50;
+console.log(score2, typeof score2);
+score2 = String(score2);
+console.log(score2, typeof score2);
+
+let convertToBoolean = 0;
+console.log(convertToBoolean, typeof convertToBoolean);
+convertToBoolean = Boolean(convertToBoolean);
+console.log(convertToBoolean, typeof convertToBoolean);
