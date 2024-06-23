@@ -57,3 +57,15 @@ console.log(people.length)
 console.log(people.join(','));
 console.log(people.indexOf('Wesner'));
 
+// null and undefined
+let empty = null;
+console.log(empty);
+
+let undefined;
+console.log(undefined);
+
+console.log(typeof null);
+console.log(typeof undefined);
+
+console.log(empty, empty + 7, `This might be empty: ${empty}`);
+console.log(undefined, undefined + 7, `This might be empty: ${undefined}`);
