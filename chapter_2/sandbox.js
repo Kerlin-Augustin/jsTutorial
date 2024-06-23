@@ -61,11 +61,34 @@ console.log(people.indexOf('Wesner'));
 let empty = null;
 console.log(empty);
 
-let undefined;
-console.log(undefined);
+let undef;
+console.log(undef);
 
 console.log(typeof null);
 console.log(typeof undefined);
 
 console.log(empty, empty + 7, `This might be empty: ${empty}`);
 console.log(undefined, undefined + 7, `This might be empty: ${undefined}`);
+
+// booleans
+let x = 0;
+let y = 1;
+console.log(x == y);
+console.log(x === y);
+console.log(x != y);
+console.log(x !== y);
+console.log(x > y);
+console.log(x < y);
+console.log(x >= y);
+console.log(x <= y);
+
+let correct = true;
+let incorrect = false;
+console.log(correct, incorrect);
+console.log(correct == 'true')
+
+let spouse = 'Tyana';
+console.log(spouse == 'Tyana');
+console.log(spouse == 'tyana');
+console.log(spouse > 'Bandeira');
+console.log(spouse > 'bandeira');
