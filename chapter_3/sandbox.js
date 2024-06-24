@@ -32,6 +32,18 @@ do {
     num2++;
 } while (num2 < 5);
 
+// break and continue
+
+const scores = [90, 98, 89, 100, 100, 86, 94];
+for (let i = 0; i < scores.length; i++) {
+    // continue skips the rest of the loop. Depending on the condition, it will continue or not. For ours it will be skipped everytime a score is less than 90
+    if (scores[i] < 90) continue;
+    console.log('score is: ', scores[i]);
+
+    // break stops the loop. Depending on the condition, it will stop or not. For ours it will be stopped depending on the condition.
+    if (scores[i] === 100) break;
+}
+
 // if statements
 
 const age = 20;
