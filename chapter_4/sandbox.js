@@ -36,3 +36,10 @@ const myFunc = (callbackFunc) => {
 myFunc(value => {
     console.log(value);
 });
+
+//forEach
+
+const names = ['kendrick', 'tyler', 'megan'];
+names.forEach(name => {
+    console.log(name);
+})
