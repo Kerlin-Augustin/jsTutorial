@@ -53,3 +53,21 @@ if (password2.length >= 8) {
     console.log('this password is too short');
 }
 
+// logical operators AND (&&) OR (||) NOT (!)
+
+const password3 = '1234567890!@';
+if (password3.length >= 12 && password3.includes('!')) {
+    console.log('this password is strong!');
+} else if (password3.length >= 8 || password3.includes('$')) {
+    console.log('this password is long enough!');
+} else {
+    console.log('this password is too weak!');
+}
+
+let user = true;
+
+if (!user) {
+    console.log('user is logged in');
+} else {
+    console.log('user is not logged in');
+}
