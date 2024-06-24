@@ -31,3 +31,25 @@ do {
     console.log('value of num2 is: ', num2);
     num2++;
 } while (num2 < 5);
+
+// if statements
+
+const age = 20;
+if (age >= 18) {
+    console.log('you can vote');
+}
+
+const password = '12345678';
+if (password.length >= 8) {
+    console.log('this password is long enough!');
+} 
+
+// if else statements
+
+const password2 = '12345';
+if (password2.length >= 8) {
+    console.log('this password is long enough!');
+} else {
+    console.log('this password is too short');
+}
+
