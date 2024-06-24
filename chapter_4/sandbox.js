@@ -21,3 +21,18 @@ const rollDie = () => {
 const rollDie2 = () => Math.floor(Math.random() * 6) + 1;
 console.log(rollDie());
 console.log(rollDie2());
+
+//callbacks functions
+
+const myFunc = (callbackFunc) => {
+    // do something
+    let value = 50;
+    // do something else
+    callbackFunc(value)
+    console.log(`this value: ${value}`);
+    
+};
+
+myFunc(value => {
+    console.log(value);
+});
