@@ -14,3 +14,10 @@ const square = function(num) {
 greet('Kerlin');
 greet('Tyana');
 
+// arrow functions
+const rollDie = () => {
+    return Math.floor(Math.random() * 6) + 1;
+};
+const rollDie2 = () => Math.floor(Math.random() * 6) + 1;
+console.log(rollDie());
+console.log(rollDie2());
