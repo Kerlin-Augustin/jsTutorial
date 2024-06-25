@@ -6,6 +6,9 @@ let user = {
     email: 'kerlin@my.com',
     location: 'boston',
     booksWritten: ['call of duty', 'programs programs programs', 'git and github'],
+    login: function() {
+        console.log('user logged in')
+    }
 }
 
 console.log(user)
@@ -17,3 +20,5 @@ console.log(user.name)
 console.log(user['booksWritten'])
 
 console.log(typeof user)
+
+user.login()
