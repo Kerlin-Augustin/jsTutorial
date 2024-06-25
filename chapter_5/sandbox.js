@@ -30,3 +30,18 @@ console.log(typeof user)
 
 user.login()
 user.logBooks()
+
+// Math object
+
+console.log(Math)
+console.log(Math.PI)
+
+const number = 9.8
+console.log(Math.round(number))
+console.log(Math.floor(number))
+console.log(Math.ceil(number))
+console.log(Math.trunc(number))
+
+const random = Math.random()
+console.log(random)
+console.log(Math.round(random * 100))
